@@ -1,4 +1,5 @@
 fun main() {
-    val userName: String = "Lydia"
+    var userName: String = "Lydia"
+    userName = "newName"
     println("Hello ${userName}!")
 }
