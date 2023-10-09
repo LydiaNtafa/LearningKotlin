@@ -7,10 +7,11 @@ fun main() {
 
     println("Hello $userName, your age is $age!")
     println("There are many number types, here they are listed by their length!")
-    println("Long>Int>Short>Byte")
-    val li: Long = 1
-    val i: Int = 1
-    val s: Short = 1
-    val b: Byte = 1
+    println("Long>Int>Short>Byte>Double>Float")
+
+    val integerNumber = 2
+    val floatNumber = 2f
+    println("The integer number is:$integerNumber and the float number is:$floatNumber")
+
 
 }
