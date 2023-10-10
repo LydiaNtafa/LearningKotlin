@@ -20,4 +20,8 @@ fun main() {
     val myBoolValue = true
 
 //this is a comment and will not run
+
+    if (integerNumber >=10) println("the number is not single digit")
+    else if (integerNumber >=0) println("it's a single-digit number")
+    else println("negative number")
 }
