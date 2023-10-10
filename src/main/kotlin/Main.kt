@@ -1,6 +1,6 @@
 fun main() {
     var userName = "Lydia"
-
+    var myCharValue = 'D'
     var age = 37
     age = Int.SIZE_BYTES
     userName = age.toString()
@@ -16,12 +16,15 @@ fun main() {
     println("integerNumber  = ${integerNumber++} first prints the number and then increments it")
     println("integerNumber  = ${++integerNumber} first increments the number and then prints it")
 
-    var myCharValue = 'D'
-    val myBoolValue = true
-
-//this is a comment and will not run
-
-    if (integerNumber >=10) println("the number is not single digit")
-    else if (integerNumber >=0) println("it's a single-digit number")
+    //with numeric operators, the operands must be of the same type!!
+    if (integerNumber >= 10) println("the number is not single digit")
+    else if (integerNumber > 0) println("it's a single-digit number")
+    else if (integerNumber == 0) println("number is zero")
     else println("negative number")
+    // logical operators are as usual ! && ||
+    val isActive = true
+    val textVariable = if (!isActive) "the user is not active" else 3
+    println(textVariable)
+
+
 }
